@@ -12,13 +12,13 @@ dotenv.config({ path: './config.env' });
 const app = require('./app');
 
 const DB = process.env.DATABASE.replace('<PASSWORD>', process.env.DB_PASSWORD);
-console.log(process.env.NODE_ENV)
 // console.log(DB);
 mongoose.connect(DB).then(() => {
   console.log('connected to database');
 });
 
-const port = process.env.PORT;
+console.log(process.env.NODE_ENV)
+const port = process.env.PORT || 3000;
 // console.log(process.env);
 const server = app.listen(port, () => {
   console.log(`listening on port ${port}`);
@@ -32,3 +32,9 @@ process.on('unhandledRejection', (err) => {
   });
 });
 // console.log(process.env);
+process.on('SIGTERM', () => {
+  console.log('👋 SIGTERM RECEIVED. Shutting down gracefully');
+  server.close(() => {
+    console.log('💥 Process terminated!');
+  });
+});
