@@ -4,6 +4,7 @@ import '@babel/polyfill';
 import { displayMap } from './mapbox';
 import { login, logout } from './login';
 import { updateSettings } from './updateSettings';
+import { showAlert } from './alerts';
 import { bookTour } from './stripe';
 
 // DOM ELEMENTS
