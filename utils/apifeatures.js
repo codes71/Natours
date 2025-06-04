@@ -7,10 +7,10 @@ class APIFeatures {
   }
 
   filter() {
-    console.log(this.queryString);
+    // console.log(this.queryString);
     const queryObj = this.queryString;
 
-    console.log(queryObj);
+    // console.log(queryObj);
     // //1.Filtering
     const excludedFields = ['sort', 'page', 'limit', 'fields'];
     excludedFields.forEach((el) => delete queryObj[el]);
@@ -26,7 +26,7 @@ class APIFeatures {
     //OLD ONEEE
     //queryStr = queryStr.replace(/\b(gte|gt|lte|lt)\b/g, (match) => `$${match}`);
 
-    console.log('Query String is : ', queryStr);
+    // console.log('Query String is : ', queryStr);
     //Exectuting Query
     this.query.find(JSON.parse(queryStr));
     return this;

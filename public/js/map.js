@@ -4,7 +4,7 @@ const mapBox = document.getElementById('map');
 const displayMap = (locations) => {
   mapboxgl.accessToken =
     'pk.eyJ1IjoidGh1cmE3MTIiLCJhIjoiY21iOThlcmtlMGUyMTJpc2I1MTQ4cTR4byJ9.JTZti8CaOwNSxqxrqwOQqQ';
-  console.log(locations);
+  // console.log(locations);
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/thura712/cmb999t1r00u001sdgj5nfrto',
@@ -51,7 +51,7 @@ const displayMap = (locations) => {
   });
 };
 if (mapBox) {
-console.log(mapBox);
+// console.log(mapBox);
 
   const locations = JSON.parse(mapBox.dataset.locations);
   displayMap(locations);
