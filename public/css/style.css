@@ -70,6 +70,18 @@ body {
 .ma-bt-md {
   margin-bottom: 3rem !important;
 }
+.button-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+}
+
+.button-container button,
+.button-container a {
+  width: 45%; /* Each button takes up almost half the width */
+  text-align: center;
+}
 
 .ma-bt-lg {
   margin-bottom: 3.5rem !important;
