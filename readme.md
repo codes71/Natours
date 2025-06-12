@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-`Natours` is a robust, full-stack web application designed for seamless tour booking and comprehensive management. It allows users to browse, book, and review tours, while providing administrative functionalities for efficient tour and booking oversight. This project was developed as part of "Node.js, Express, MongoDB & More: The Complete Bootcamp 2019" by Jonas Schmedtmann, serving as both a functional application and an extensive learning resource.
+`Natours` is a robust, full-stack web application designed for seamless tour booking and comprehensive management. It allows users to browse, book, and review tours, while providing administrative functionalities for efficient tour and booking oversight. This project was developed as part of "Node.js, Express, MongoDB & More: The Complete Bootcamp 2019" by Jonas Schmedtmann, serving as both a functional application and an extensive learning resource. 
 
 ## Key Features 📝
 
@@ -47,7 +47,7 @@ The application boasts a rich array of core functionalities catering to various 
 To get the `Natours` project running on your local machine, follow these steps:
 
 1.  \*\*Clone the Repository:\*\*bash
-    git clone [https://github.com/codes71/Natours.git](https://www.google.com/search?q=https://github.com/lgope/Natours.git)
+    git clone [https://github.com/codes71/Natours.git](https://github.com/codes71/Natours.git)
     cd Natours
     ```
     ```
@@ -104,10 +104,10 @@ To get the `Natours` project running on your local machine, follow these steps:
 Explore the deployed application and its API endpoints:
 
   * **Live Demo:** [https://natours-t.up.railway.app/](https://natours-t.up.railway.app/) 
-  * **Tours List API:** [https://natours-t.up.railway.app/api/v1/tours](https://www.google.com/search?q=https://natours-t.up.railway.app/api/v1/tours) 
-  * **Tours State API:** [https://natours-t.up.railway.app/api/v1/tours/tour-stats](https://www.google.com/search?q=https://natours-t.up.railway.app/api/v1/tours/tour-stats) 
-  * **Top 5 Cheap Tours API:** [https://natours-t.up.railway.app/api/v1/tours/top-5-cheap](https://www.google.com/search?q=https://natours-t.up.railway.app/api/v1/tours/top-5-cheap) 
-  * **Tours Within Radius API (Example):** [https://natours-t.up.railway.app/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi](https://www.google.com/search?q=https://natours-t.up.railway.app/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi) 
+  * **Tours List API:** [https://natours-t.up.railway.app/api/v1/tours](https://natours-t.up.railway.app/api/v1/tours) 
+  * **Tours State API:** [https://natours-t.up.railway.app/api/v1/tours/tour-stats](https://natours-t.up.railway.app/api/v1/tours/tour-stats) 
+  * **Top 5 Cheap Tours API:** [https://natours-t.up.railway.app/api/v1/tours/top-5-cheap](https://natours-t.up.railway.app/api/v1/tours/top-5-cheap) 
+  * **Tours Within Radius API (Example):** [https://natours-t.up.railway.app/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi](https://natours-t.up.railway.app/api/v1/tours/tours-within/200/center/34.098453,-118.096327/unit/mi) 
 
 ## Project Roadmap (To-do & Future Updates) 🪴
 
