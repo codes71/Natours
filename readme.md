@@ -46,10 +46,10 @@ The application boasts a rich array of core functionalities catering to various 
 
 To get the `Natours` project running on your local machine, follow these steps:
 
-1.  \*\*Clone the Repository:\*\*bash
+1.  **Clone the Repository:** bash
     git clone [https://github.com/codes71/Natours.git](https://github.com/codes71/Natours.git)
-    cd Natours
     ```
+    cd Natours
     ```
 2.  **Install Dependencies:**
     ```bash
